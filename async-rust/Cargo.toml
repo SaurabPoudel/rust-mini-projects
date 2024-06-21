@@ -1,0 +1,10 @@
+[package]
+name = "async-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.12", features = ["blocking","json"] }
+error-chain = "0.12.4"
+tokio = { version = "1.38.0", features = ["full"] }
+
